@@ -1,5 +1,5 @@
 # set base image (host OS)
-FROM python:3.11-windowsservercore-ltsc2022
+FROM python:3.11-windowsservercore-1809
 
 # set the working directory in the container
 WORKDIR /code
